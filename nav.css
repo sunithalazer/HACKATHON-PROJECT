@@ -1,0 +1,75 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: darkcyan;
+}
+.page1{
+    background-image: url('first.jpg');
+    min-height: 100%;
+}
+.page2{
+    background-image: url('h.jpg');
+    min-height: 100%;
+    
+
+}
+.page3{
+    background-image: url('img.jpg');
+    min-height: 100%;
+}
+.page1,
+.page2,
+.page3
+{
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.pagetext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: rgb(29, 218, 45);
+    color: rgb(197, 16, 16);
+    padding: 20px;
+}
+.textbg1{
+    
+    background-color: rgb(175, 200, 237);
+    color: rgb(156, 40, 104);
+    padding: 20px;
+}
+.textbg2{
+        background-color:blanchedalmond ;
+        color: rgb(197, 16, 16);
+        padding: 20px;
+    }
+.info{
+ padding: 50px 80px;
+    text-align: center;
+}
+.info{
+    background-color: rgb(18, 173, 59);
+    color: rgb(134, 8, 8);
+}
+.info1{
+    background-color: rgb(55, 53, 57);
+    color: rgb(237, 237, 228);
+}
+.info2{
+    background-color: rgb(44, 60, 70);
+    color: rgb(220, 228, 232);
+}
